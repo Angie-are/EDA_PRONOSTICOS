@@ -1,0 +1,2 @@
+SRC/notebooks/*.mp4 filter=lfs diff=lfs merge=lfs -text
+SRC/notebooks/*.pptx filter=lfs diff=lfs merge=lfs -text
