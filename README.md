@@ -41,4 +41,46 @@ En este análisis, se investigan las distribuciones de variables clave como los 
 - **Boxplots de goles locales y visitantes**: Visualización de la distribución de goles por equipo.
 - **Probabilidades de victoria**: Comparación de las probabilidades de victoria dadas por Bet365, Pinnacle y otras casas de apuestas.
 
-## Análisis
+## Análisis Bivariante
+
+Este análisis explora la relación entre las métricas de goles (local y visitante) utilizando un boxplot. Se examina cómo las distribuciones de goles se correlacionan entre equipos locales y visitantes, proporcionando información sobre el rendimiento en casa frente a fuera de casa.
+
+## Análisis Multivariante
+
+En este análisis se exploran las interacciones entre múltiples variables, como los goles y las probabilidades de victoria. El uso de boxplots permite identificar patrones y variabilidad en los datos, proporcionando una base para futuros modelos predictivos.
+
+## Visualizaciones Relevantes
+
+Se han generado diversas visualizaciones para entender mejor los datos:
+
+1. **Boxplot de goles locales por equipo**: Muestra cómo se distribuyen los goles anotados por los equipos locales.
+2. **Boxplot de goles visitantes por equipo**: Similar al anterior, pero para los equipos visitantes.
+3. **Boxplot de probabilidades de victoria local y visitante**: Compara las probabilidades de que un equipo gane según las casas de apuestas.
+4. **Comparación entre goles locales y goles visitantes**: Analiza la diferencia de goles entre equipos locales y visitantes.
+5. **Histograma de resultados de partidos**: Muestra la frecuencia de victorias, empates y derrotas.
+6. **Correlación entre goles y probabilidades de victoria**: Examina la relación entre los goles marcados y las probabilidades de victoria.
+
+## Conclusiones
+
+Algunos hallazgos clave incluyen:
+
+- Los equipos locales suelen tener un mejor rendimiento, marcando más goles en casa que como visitantes.
+- Existe una fuerte relación entre los tiros a puerta y los goles marcados.
+- Las probabilidades de victoria ofrecidas por las casas de apuestas no siempre se alinean con los resultados reales.
+- Algunos equipos, como "Valladolid", tienen un bajo rendimiento a pesar de generar muchas oportunidades de gol.
+
+## Recomendaciones
+
+Basado en los resultados del análisis, se sugieren las siguientes recomendaciones:
+
+- **Mejorar la precisión de los tiros**: Los equipos deberían centrarse en mejorar la efectividad de sus tiros a puerta.
+- **Analizar equipos atípicos**: Equipos como "Valladolid" deberían revisar su estrategia ofensiva.
+- **Optimización defensiva**: Estudiar equipos con buen rendimiento defensivo para replicar sus tácticas.
+- **Impacto de faltas y tarjetas**: Investigar cómo las sanciones afectan el rendimiento de los equipos.
+- **Aprovechar goles en la segunda mitad**: Ajustar tácticas para mejorar el rendimiento en la segunda mitad de los partidos.
+
+## Referencias
+
+Este análisis se ha realizado utilizando herramientas como Python, Pandas, Matplotlib, Seaborn, Numpy, Statsmodels y Scikit-learn. Los datos fueron obtenidos de [Football-Data.co.uk](https://www.football-data.co.uk/), una fuente confiable de estadísticas de fútbol.
+
+
